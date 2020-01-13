@@ -1,13 +1,19 @@
 filter
 ==
 # Overview
-フィルター系まとめ
+- フィルター系まとめ
+- numpyのみで実装している
 
 # Discription
 - Kalman Filter : モデルが線形かつノイズがガウス分布に従う
 - Extended Kalman Filter : モデルが線形/非線形かつノイズがガウス分布
 - 
-# Data
+
+# Usage
+```
+$ python main.py --r [model]
+```
+- model : 'ParticleFilter', 'KalmanFilter'
 
 
 # Results
@@ -17,7 +23,7 @@ filter
 ## Particle Filter
 ![代替テキスト](./sample_results/Particle_filter.png)
 
-# Cite
+# Citation
 ## Kalman Filter
 - [シンプルなモデルとイラストでカルマンフィルタを直観的に理解してみる](https://qiita.com/MoriKen/items/0c80ef75749977767b43)
 - [カルマンフィルタ実装](https://satomacoto.blogspot.com/2011/06/python.html)
